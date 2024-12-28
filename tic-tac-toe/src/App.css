@@ -1,0 +1,46 @@
+.main-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+.water-background{
+  background-color: #4b495f;
+}
+
+.game-heading{
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.square-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.move-detection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5vw;
+}
+.left-side, .right-side {
+  height: 30px;
+  width: 120px;
+  background-color: red;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  text-align: center;
+  padding-top: 7px;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #4b495f;
+
+}
